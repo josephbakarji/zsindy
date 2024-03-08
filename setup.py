@@ -4,8 +4,8 @@ with open('requirements.txt') as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="PyZSindy",
-    version="0.1.0",
+    name="zsindy",
+    version="0.1.1",
     author="Joseph Bakarji and Andrei Klishin",
     author_email="joseph.bakarji0@aub.edu.lb",
     description="A Bayesian statistical mechanical approach to sparse equation discovery",

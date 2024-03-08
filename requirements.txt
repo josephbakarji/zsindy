@@ -1,6 +1,6 @@
 cmcrameri==1.7
-matplotlib==3.7.1
-numpy==1.23.5
+matplotlib
+numpy
 pysindy==1.7.5
 scipy==1.11.3
 setuptools==67.4.0
