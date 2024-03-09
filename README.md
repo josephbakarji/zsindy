@@ -29,7 +29,7 @@ eta = 0.2 # Noise
 x0 = (0, 1, 1.05)
 tend = 20
 dt = 0.01
-rho = dt/eta*np.sqrt(2) # Resolution parameter
+rho = eta/dt/np.sqrt(2) # Resolution parameter
 args = (10, 28, 8/3)
 
 ```
@@ -85,7 +85,3 @@ If you're developing this code, create a virtual environment using `pipenv`, whi
 in the main directory (where there is a `setup.py` file). This creates a Pipfile which manages your dependencies, and the flag `-e` makes it editable, unlike a normal `pip` package (this installation might take a while). To activate the project's virtualenv, run `pipenv shell`.
 
 Use `pipreqs ./` in the main directory if you want to update the requirements file (you might need to `--force` if it already exists).
-
-
-## Usage
-
